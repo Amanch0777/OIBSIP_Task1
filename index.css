@@ -1,0 +1,186 @@
+body{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+}
+.nav{
+        top: 0;
+    background-image:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)),
+    url("https://ftr.imgix.net/FQBOc9Uh5e22pHikmfCJR/3ce3022343c7ad918545a6a2e01f36b5/homepage-pingzhu-hero-bg-opt-v2.jpg?auto=format%2Ccompress&cs=srgb&fit=max&q=60&w=320&s=00ff2c70aafebc024692b9dd907d983b");
+    height:100vh ;
+    object-fit:cover ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.row{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        max-width: 1180px; 
+        margin:0 auto;
+    }
+.logo{
+       height: 50px; 
+       margin-top: 15px;
+}
+.main-nav{
+        margin-top: 10px;
+        margin-right: 5px;
+        text-decoration: none;
+        color: black;
+        font-weight: bolder;
+        font-family: 'Comfortaa', cursive;
+}
+.main-content{
+   position: absolute;   
+   top: 45%;  
+   left: 50%;
+   width: max-content;
+   text-align: center;
+   transform: translate(-50%,-50%);
+}
+.button{
+  display: inline-block;
+  padding: 16px 45px ;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 200px;
+  margin: 0px 30px 30px 0px;  
+  transition: 
+  background-color 0.2s,
+  border 0.2s, color 0.2;  
+  background-color: #0f866c;
+  color: #fff;
+  border: 1px solid #0f866c;
+  font-weight: bold;
+  letter-spacing: 1px;  
+}
+.button:hover{
+        cursor: pointer;
+}
+.h1{
+        font-size: 500%;
+        word-spacing: 5px;
+        letter-spacing: 3px;
+        font-weight: 500;
+        font-feature-settings: "liga";
+        font-family: 'Comfortaa', cursive;
+        font-weight: bolder;
+        width: 100%;
+}
+.h3{
+  font-size: 150%; 
+  word-spacing: 1px;
+  font-weight: bold; 
+  margin-top: -40px;
+}
+.span{
+        font-family: 'Comfortaa', cursive;  
+        font-size: small;   
+}
+.button:hover{
+        background-color: rgb(215, 253, 47);
+        color: black;
+        border: 1px solid rgb(215, 253, 47);
+}
+.tb-flex{
+        display: flex;
+        padding: 10px;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+}
+.bricks{
+        width: 390px;
+        height: 390px;
+}
+.main-table{
+        padding: 50px;
+}
+.content-bricks{
+   float: right;
+   padding-left: 50px;
+}
+.spann{
+   max-width: 400px;
+   font-family: 'Comfortaa', cursive;
+   letter-spacing: 1px;
+   word-spacing: 1px;
+}
+.h11{
+        font-family: 'Comfortaa', cursive;  
+        font-weight: bold;  
+        font-size: 800; 
+}
+.images{
+        width: 320px;
+        height:180px ;
+        padding: 30px 30px 20px;
+}
+.h12{
+        padding: 0px 15px 10px;
+        font-family: 'Comfortaa', cursive;  
+        font-weight: bold;  
+        font-size: 800; 
+        text-align: center;
+}
+.span2{
+        padding: 0px 20px 20px;
+        text-align: center;
+        font-family: 'Comfortaa', cursive;
+        letter-spacing: 1px;
+        word-spacing: 1px;
+}
+.p-lg{
+    max-width: 400px;    
+}
+.logos3{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+}
+.advn{
+     text-align: center;  
+     padding: 20px 0px;
+     color: #0f866c; 
+     font-family: 'Comfortaa', cursive;
+
+}
+.advn:hover{
+        text-decoration: underline;
+        cursor: pointer;
+}
+.map-ph{
+        width: 65%;
+        height: 500px;
+}
+.mapss{
+        background-color: rgb(255, 244, 245);
+}
+.map-h1{
+        font-size: 260%;
+        word-spacing: 2px;
+        letter-spacing: 1px;
+        font-weight: 500;
+        font-feature-settings: "liga";
+        font-family: 'Comfortaa', cursive;
+        font-weight: bolder;
+        width: 100%;
+        text-align: center; 
+        padding-bottom: 10px; 
+        padding-top: 90px; 
+        color: rgb(39, 38, 38);   
+}
+.map-map{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+.map-h2{
+        font-family: 'Comfortaa', cursive;
+        font-weight: bolder;  
+        padding-left: 25px;  
+        color: rgb(24, 23, 23);  
+}
